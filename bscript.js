@@ -18,5 +18,5 @@ $(".denomination").click(function(event) {
     
     $(".denomination").removeClass("selected").prop('checked', false);
     $(this).addClass("selected");
-    $("button").text('Donate Rs. ' + $(this).val() + key );
+    $("button").text('Donate Rs. ' + $(this).val() + key);
   });
